@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-wine-50: #fdf2f3;
+  --color-wine-100: #fce4e7;
+  --color-wine-200: #f9cbd1;
+  --color-wine-300: #f4a3ad;
+  --color-wine-400: #ec6f7f;
+  --color-wine-500: #de3d53;
+  --color-wine-600: #c9243b;
+  --color-wine-700: #a91c2f;
+  --color-wine-800: #8c1a2a;
+  --color-wine-900: #721926;
+  --color-wine-950: #420a12;
+  
+  --color-cream-50: #fdfcf7;
+  --color-cream-100: #fcfbf0;
+  --color-cream-200: #f9f7dc;
+  --color-cream-300: #f3efb9;
+  --color-cream-400: #e8e08a;
+  --color-cream-500: #dace5c;
+  --color-cream-600: #c1b343;
+  --color-cream-700: #a19236;
+  --color-cream-800: #837630;
+  --color-cream-900: #6d612b;
+  --color-cream-950: #3f3715;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-slate-900 bg-slate-50;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
